@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  color: black;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page {
+  position: relative;
+  height: 100vh;
+  width: 60vw;
+  text-align: center;
+  padding: 5px;
+}
+
+#pagehead {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.username {
+  height: 3rem;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 25px;
+  margin: 15px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#fetchbtn {
+  height: 3rem;
+  width: 8rem;
+  background-color: orangered;
+  border: 0;
+  border-radius: 13px;
+}
+
+#userinfo {
+  height: 50vh;
+  font-size: 26px;
+  font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+  line-height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#pfp {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 2px;
+  border: 3px solid orangered;
+}
